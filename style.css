@@ -10,8 +10,14 @@
   DARKER_BLUE = '#111B39'
 */
 
+@import url('https://fonts.googleapis.com/css?family=Merriweather|Merriweather+Sans');
+
 body {
-    font-family: 'arial';
+    font-family: 'Merriweather Sans', sans-serif, 'arial';
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Merriweather', 'Merriweather Sans', sans-serif, 'arial';
 }
 
 nav {
