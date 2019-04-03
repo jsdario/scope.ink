@@ -1,16 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="utf-8">
-  <title>🔬 Scope</title>
-  <style>
-      * {
-        margin: 0;
-        padding: 0;   
-      }
-  </style>
+    <meta charset="utf-8">
+    <title>🔬 Scope</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+    </style>
     <link href="style.css" rel="stylesheet" />
 </head>
+
 <body>
 
     <nav>
@@ -33,67 +35,67 @@
 
     <section> The value we create </section>
 
-    <section> World map </section>
+    <section id="world-map"> World map </section>
 
 
     <section id="pricing" class="pricing">
-            <div id="open-source" class="pricing-card">
-                <div class="pricing-card-header">
-                    <span>🔬Open Source</span>
-                </div>
-                <div class="pricing-card-body">
-                    <ul>
-                        <li>Free</li>
-                        <li>Only for public repos</li>
-                        <li>Limited features</li>
-                    </ul>
-                </div>
+        <div id="open-source" class="pricing-card">
+            <div class="pricing-card-header">
+                <span>🔬Open Source</span>
             </div>
-            <div id="startup" class="pricing-card">
-                <div class="pricing-card-header">
-                    <span>🚀Start up</span>
-                </div>
-                <div class="pricing-card-body">
-                    <ul>
-                        <li>9,99€/Month</li>
-                        <li>Per user & project</li>
-                        <li>Private repos</li>
-                        <li>Premium features</li>
-                    </ul>
-                </div>
+            <div class="pricing-card-body">
+                <ul>
+                    <li>Free</li>
+                    <li>Only for public repos</li>
+                    <li>Limited features</li>
+                </ul>
             </div>
-            <div id="entreprise" class="pricing-card">
-                <div class="pricing-card-header">
-                    <span>🔭Entreprise</span>
-                </div>
-                <div class="pricing-card-body">
-                    <ul>
-                        <li>Ask for budget</li>
-                        <li>Unlimited repos & members</li>
-                        <li>More than code</li>
-                    </ul>
-                </div>
+        </div>
+        <div id="startup" class="pricing-card">
+            <div class="pricing-card-header">
+                <span>🚀Start up</span>
             </div>
-        </section>
-    
+            <div class="pricing-card-body">
+                <ul>
+                    <li>9,99€/Month</li>
+                    <li>Per user & project</li>
+                    <li>Private repos</li>
+                    <li>Premium features</li>
+                </ul>
+            </div>
+        </div>
+        <div id="entreprise" class="pricing-card">
+            <div class="pricing-card-header">
+                <span>🔭Entreprise</span>
+            </div>
+            <div class="pricing-card-body">
+                <ul>
+                    <li>Ask for budget</li>
+                    <li>Unlimited repos & members</li>
+                    <li>More than code</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
 
     <section> Media & Supporters </section>
 
     <footer>
         <div class="all-columns">
-          <div class="column">
-              <span>Contact</span>
-              <span>hello💌scope.ink</span>
-          </div>
-          <div class="column">
-              <span>Subscribe to our newsletter</span>
-              <input placeholder="your email">
-          </div>
-          <div class="column">
-              <span>Follow us</span>
-              <span>Twitter</span>
-              <span>Linkedin</span>
-          </div>
+            <div class="column">
+                <span>Contact</span>
+                <span>hello💌scope.ink</span>
+            </div>
+            <div class="column">
+                <span>Subscribe to our newsletter</span>
+                <input placeholder="your email">
+            </div>
+            <div class="column">
+                <span>Follow us</span>
+                <span>Twitter</span>
+                <span>Linkedin</span>
+            </div>
         </div>
         <div class="policy-and-legal">
             <span>Legal</span>
@@ -102,8 +104,10 @@
         </div>
     </footer>
 
-  <script>
-      console.log('nestro codigo está corriendo')
-  </script>
+    <script type="text/javascript" src="https://d3js.org/d3.v4.min.js"></script>
+    <script src="https://unpkg.com/topojson-client@3"></script>
+    <script src="map.js"></script>
+
 </body>
+
 </html>
