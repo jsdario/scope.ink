@@ -60,3 +60,46 @@ footer .column {
     clear: both;
     background-color: #5A9FEE;
 }
+
+section.pricing {
+    width: 100%;
+    padding: 50px;
+    display: block;
+    height: 300px;
+
+}
+
+.pricing-card {
+    display: block;
+    float: left;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.pricing-card-header{
+    padding-bottom: 20px;
+    color: white;
+    text-align: center;
+    border-radius: 9px 9px 0 0;
+}
+
+#open-source .pricing-card-header{
+    background-color: #39E8CA;
+}
+
+#startup .pricing-card-header{
+    background-color: #5A9FEE;
+}
+
+#entreprise .pricing-card-header{
+    background-color: #111B39;
+}
+
+
+.pricing-card-body ul{
+    list-style: none;
+    text-align: center;
+    padding: 20px;
+}
+
