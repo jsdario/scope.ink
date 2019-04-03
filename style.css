@@ -1,0 +1,56 @@
+
+/*
+  WHITE = '#E8F7FA'
+  RED = '#FA547A'
+  GREEN = '#39E8CA'
+  BRAND_BLUE = '#4067EC'
+  ACCENT_BLUE = '#5A9FEE'
+  DARK_BLUE = '#3762A4'
+  LIGHT_BLUE = '#70E4F9'
+  DARKER_BLUE = '#111B39'
+*/
+
+body {
+    font-family: 'arial';
+}
+
+nav {
+    height: 10vh;
+}
+
+header {
+    background-color: #111B39;
+    color: white;
+    font-size: 24pt;
+    height: 90vh; /* vertical height */
+}
+
+header div {
+    /* la division dentro de header*/
+    padding: 100px;
+}
+
+footer {
+    color: white;
+    background-color: #111B39;
+}
+
+footer .column {
+    display: block;
+    padding: 20px;
+    float: left;
+    border: 1px solid white;
+    background-color: #111B39;
+}
+
+.all-columns {
+    width: 100%;
+    display: block;
+    padding: 20px;
+}
+
+.policy-and-legal {
+    display: block;
+    clear: both;
+    background-color: #5A9FEE;
+}
