@@ -87,6 +87,10 @@ footer .column {
     margin-bottom: 50px;
 }
 
+section.hackenoon{
+    padding: 500px;
+}
+
 section.pricing {
     display: block;
     width: 100%;
@@ -117,17 +121,19 @@ section.pricing {
 #open-source .pricing-card-header{
     background-color: #39E8CA;
     padding-top: 10px;
-    
+    font-size: 24px;
 }
 
 #startup .pricing-card-header{
     background-color: #5A9FEE;
     padding-top: 10px;
+    font-size: 24px;
 }
 
 #entreprise .pricing-card-header{
     background-color: #111B39;
     padding-top: 10px;
+    font-size: 24px;
 }
 
 
@@ -135,6 +141,7 @@ section.pricing {
     list-style: none;
     text-align: center;
     padding: 20px;
+    margin-top: 15px;
 }
 
 #world-map {
