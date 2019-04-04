@@ -80,12 +80,19 @@ footer .column {
     text-align: center;
 }
 
+#media-supporters {
+    display: block;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
 section.pricing {
     display: block;
     width: 100%;
     position: relative;
     padding: 30px;
-    margin-left: 21%;
+    margin-left: 7%;
     height: 300px;
     justify-items: center;    
 }
@@ -95,7 +102,9 @@ section.pricing {
     float: left;
     margin: 10px;
     border-radius: 10px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);    
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);  
+    width: 300px;
+    height: 220px;
 }
 
 .pricing-card-header{
