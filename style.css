@@ -24,6 +24,15 @@ nav {
     height: 10vh;
 }
 
+section.nav-menu {
+    padding: 10px;
+    float: right;
+    margin-bottom: 100px;
+
+
+}
+
+
 header {
     background-color: #111B39;
     color: white;
