@@ -29,19 +29,21 @@ nav {
     padding: 7px;
 }
 
-section.nav-menu {
-    display: grid;
-    grid-template-rows: 10px;
-    margin-right: 20px;
-    align-items: flex-end;
-    justify-items: self-end;
-
-
+.nav-menu {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 5px;
 }
 
+.nav-menu a:hover{
+    background: #39E8CA;
+}
+
+header{
+    background-image: linear-gradient(to right, #111B39 ,#3762A4)
+}
 
 header {
-    background-color: #111B39;
     color: white;
     font-size: 24pt;
     height: 90vh; /* vertical height */
@@ -56,12 +58,12 @@ header div {
 footer {
     color: white;
     background-color: #111B39;
+    width: 100%;
 }
 
 footer .column {
     display: block;
     padding: 20px;
-    float: left;
     border: 1px solid white;
     background-color: #111B39;
 }
@@ -73,15 +75,17 @@ footer .column {
 }
 
 #type-plans {
-    display: inline-block;
+    display: block;
     padding: 10px;
     text-align: center;
 }
 
 section.pricing {
     display: block;
-    width: 75%;
-    padding: 20px;
+    width: 100%;
+    position: relative;
+    padding: 30px;
+    margin-left: 21%;
     height: 300px;
     justify-items: center;    
 }
@@ -103,14 +107,18 @@ section.pricing {
 
 #open-source .pricing-card-header{
     background-color: #39E8CA;
+    padding-top: 10px;
+    
 }
 
 #startup .pricing-card-header{
     background-color: #5A9FEE;
+    padding-top: 10px;
 }
 
 #entreprise .pricing-card-header{
     background-color: #111B39;
+    padding-top: 10px;
 }
 
 
@@ -130,12 +138,18 @@ svg {
     height: 600px;
 }
 
+#contact{
+    display:block;
+    padding: 50px;
+}
+
+#newsletter{
+
+}
+
 .policy-and-legal {
-    justify-content: flex-end;
     display: inline-block;
     background-color: #5A9FEE;
     text-align: center;
-    letter-spacing: 3px;
     width: 100%;
-    padding: 10px;
 }
