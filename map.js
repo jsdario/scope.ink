@@ -4,7 +4,12 @@ const visited_countries = [
     '804',
     '840',
     '710',
-    '156'
+    '156',
+    '826',
+    '276',
+    '380',
+    '250',
+    '643',
 ]
 
 function colorCountry(country) {
