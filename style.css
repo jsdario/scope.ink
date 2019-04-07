@@ -24,53 +24,60 @@ nav {
     height: 10vh;
 }
 
-#logo {
-    margin-left:20px;
-    padding: 7px;
-    font-size: 50px;
+.logo {
+    font-size: 28px;
+    margin: 20px 0px 0px 50px;
+    display: block;
+    padding: 0px 0px 0px 0px;
+    justify-content: right;
+    width: 100%;
 }
 
 .nav-menu {
     display: flex;
+    font-size: 15px;
     justify-content: flex-end;
-    margin-bottom: 5px;
+    margin: 0px 50px 15px 0px;
+    padding: 0px 25px 0px 0px;
 }
 
 .nav-menu a:hover{
-    background: #39E8CA;
+    color: red;
 }
 
 header{
-    background-image: linear-gradient(to right, #111B39 ,#3762A4)
+    background-image: linear-gradient(to right, #111B39, #33F3FF);
 }
 
 header {
     color: white;
     font-size: 24pt;
-    height: 90vh; /* vertical height */
+    height: 90vh;
     width: 100%;
 }
 
 header div {
-    /* la division dentro de header*/
     padding: 100px;
 }
 
+#text1{
+    width: 50%;
+}
+
 .button {
-    background-color: #39E8CA;
+    background-color: orange;
     border-radius: 25px;
+    border-color: white;
     color: #111B39;
     padding: 15px 32px;
     font-size: 20px;
     cursor: pointer;
-    display: inline-block;
-    margin: 15% 0% 0% 15%;
+    display: block;
+    margin: 9% 0% 0% 15%;
+}
 
-
-    
-    
-
-
+.button:hover{
+    background-color: #5A9FEE;
 }
 
 footer {
@@ -90,6 +97,30 @@ footer .column {
     width: 100%;
     display: block;
     padding: 20px;
+}
+
+.what-is-scope{
+    display: block;
+    text-align: right;
+    align-content: right;
+    padding: 10px;
+    font-size: 30px;
+    margin: 30px 60px 30px 0px;
+}
+
+#p1{
+    display: block;
+    text-align: right;
+    margin: 40px 0px 0px 40px;
+    padding: 0px 40px 40px 0px;
+    text-indent: 40px;
+    font-size: 15px;
+    width: 500px;
+}
+
+.the-value-we-create{
+    display: block;
+    
 }
 
 #type-plans {
