@@ -51,7 +51,15 @@ a:link{
 }
 
 a:visited{
-    text-decoration: none;
+    color: inherit;
+}
+
+a:active{
+    color: inherit;
+}
+
+a:hover{
+    color:orange;
 }
 
 .nav-menu a:hover{
@@ -185,10 +193,6 @@ section.pricing {
     margin-top: 15px;
 }
 
-#block-startup{
-    
-}
-
 .button-entreprise{
     background-color: #F1F5FF;
     border-radius: 10px;
@@ -203,12 +207,14 @@ section.pricing {
 
 #world-map {
     width: 100%;
-    height: 500px;
-    padding-block-end: 200px;
+    height: 550px;
+    padding-block-end: 250px;
 }
 
 svg {
-    height: 600px;
+    height: 650px;
+    align-items: center;
+    margin-left: 50px;
 }
 
 footer {
@@ -247,8 +253,9 @@ footer .column-contact {
 
 .column-contact-body{
     background-color: transparent;
-    font-size: 16px;
+    font-size: 15px;
     text-align: center;
+    color: inherit;
 }
 
 .policy-and-legal {
