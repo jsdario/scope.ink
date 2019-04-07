@@ -227,7 +227,6 @@ footer .column-contact {
     padding-top: 1px;
     font-size: 25px;
     text-align: center;
-    text-decoration-line: none;
 }
 
 .column-contact-body{
@@ -237,9 +236,17 @@ footer .column-contact {
 }
 
 .policy-and-legal {
-    display: inline-block;
-    background-color: #5A9FEE;
-    text-align: center;
+    display: -webkit-inline-flex;
+    background-color: #1F2E5B; 
+    padding: 0px;
+    align-items: center;
+    justify-content: center;
     width: 100%;
-    padding-block-end: 50px;
+    padding-block-end: 0px;
+}
+
+.legal-column{
+    display: block;
+    align-items: center;
+    font-size: 10px;
 }
