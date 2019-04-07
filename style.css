@@ -42,6 +42,8 @@ nav {
     margin: 0px 50px 15px 0px;
     padding: 0px 25px 0px 0px;
     text-decoration: none;
+    align-items: center;
+    justify-content: flex-end;
 }
 
 a:link{
@@ -71,7 +73,6 @@ header div {
     padding: 100px;
 }
 
-
 #text1{
     width: 50%;
 }
@@ -90,29 +91,6 @@ header div {
 
 .button:hover{
     background-color: #5A9FEE;
-}
-
-footer {
-    color: white;
-    background-color: #111B39;
-    width: 100%;
-}
-
-footer .column {
-    display: block;
-    -webkit-column-count: 3;
-    -moz-column-count: 3;
-    column-gap: 40px;
-    column-rule-style: solid;
-    padding-block-end: 10px;
-    border: 1px solid white;
-    background-color: #111B39;
-}
-
-.all-columns {
-    width: 100%;
-    display: block;
-    padding: 20px;
 }
 
 .what-is-scope{
@@ -153,10 +131,6 @@ footer .column {
     padding: 10px;
     text-align: center;
     margin-bottom: 50px;
-}
-
-section.hackenoon{
-    padding: 500px;
 }
 
 section.pricing {
@@ -204,7 +178,6 @@ section.pricing {
     font-size: 24px;
 }
 
-
 .pricing-card-body ul{
     list-style: none;
     text-align: center;
@@ -222,12 +195,45 @@ svg {
     height: 600px;
 }
 
-#contact{
-    display:block;
+footer {
+    color: white;
+    background-color: #111B39;
+    width: 100%;
+    justify-content: center;
 }
 
-#newsletter{
+footer .column-contact {
+    display: block;
+    position: relative;
+    padding: 30px;
+    margin-left: 7%;
+    height: 50px;
+    float: left;
+    justify-items: center;
+    background-color: #111B39;
+}
 
+.all-columns {
+    width: 100%;
+    display: -webkit-inline-flex;
+    padding: 20px;
+    float: left;
+    justify-items: center;
+    align-items: center;
+    margin: 0 20px 50px 0;
+}
+
+.column-contact-header{
+    padding-top: 1px;
+    font-size: 25px;
+    text-align: center;
+    text-decoration-line: none;
+}
+
+.column-contact-body{
+    background-color: transparent;
+    font-size: 16px;
+    text-align: center;
 }
 
 .policy-and-legal {
