@@ -27,6 +27,7 @@ nav {
 #logo {
     margin-left:20px;
     padding: 7px;
+    font-size: 50px;
 }
 
 .nav-menu {
@@ -53,6 +54,23 @@ header {
 header div {
     /* la division dentro de header*/
     padding: 100px;
+}
+
+.button {
+    background-color: #39E8CA;
+    border-radius: 25px;
+    color: #111B39;
+    padding: 15px 32px;
+    font-size: 20px;
+    cursor: pointer;
+    display: inline-block;
+    margin: 15% 0% 0% 15%;
+
+
+    
+    
+
+
 }
 
 footer {
