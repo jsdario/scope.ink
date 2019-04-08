@@ -43,7 +43,6 @@ nav {
     padding: 0px 25px 0px 0px;
     text-decoration: none;
     align-items: center;
-    justify-content: flex-end;
 }
 
 a:link{
@@ -115,9 +114,10 @@ header div {
 .line{
     margin-top: 8px;
     margin-bottom: 24px;
-    background-color: linear-gradient(90deg,#3a3493,#00cce7 200%);
-    height: 10px;
-    width: 160px;
+    background: linear-gradient(90deg,#3a3493,#00cce7 200%);
+    height: 3px;
+    width: 190px;
+    align-items: center;
 }
 
 .benefit-left{
