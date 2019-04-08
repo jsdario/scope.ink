@@ -101,10 +101,22 @@ header div {
     background-color: #5A9FEE;
 }
 
+.header-script{
+    width: 310px;
+    height: 310px;
+    background-color: black;
+    position: relative;
+    margin: 0 0 400px 650px;
+}
+
+.bolas{
+    background-color: black;
+    color: white;
+}
+
 .what-is-scope{
     display: block;
     text-align: right;
-    align-content: right;
     padding: 10px;
     font-size: 30px;
     margin: 30px 60px 30px 0px;
@@ -112,12 +124,18 @@ header div {
 
 #p1{
     display: block;
+    align-content: right;
     text-align: right;
+    -webkit-box-align: right;
     margin: 40px 0px 0px 40px;
     padding: 0px 40px 40px 0px;
-    text-indent: 40px;
     font-size: 15px;
-    width: 500px;
+    width: 400px;
+}
+
+#what-we-create{
+    list-style: none;
+    margin-left: 5%;
 }
 
 .the-value-we-create{
