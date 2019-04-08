@@ -104,14 +104,10 @@ header div {
 .header-script{
     width: 310px;
     height: 310px;
-    background-color: black;
+    background-color: blue;
     position: relative;
     margin: 0 0 400px 650px;
-}
-
-.bolas{
-    background-color: black;
-    color: white;
+    opacity: 0.2;
 }
 
 .what-is-scope{
@@ -119,7 +115,7 @@ header div {
     text-align: right;
     padding: 10px;
     font-size: 30px;
-    margin: 30px 60px 30px 0px;
+    margin: 30px 50px 30px 0px;
 }
 
 #p1{
@@ -233,6 +229,12 @@ svg {
     height: 650px;
     align-items: center;
     margin-left: 50px;
+}
+
+#image-10{
+    margin-top: 32px;
+    display: block;
+    margin: 50px;
 }
 
 footer {
