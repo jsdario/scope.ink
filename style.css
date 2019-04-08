@@ -26,11 +26,11 @@ nav {
 
 .logo {
     font-size: 28px;
-    margin: 20px 0px 0px 50px;
-    display: block;
-    padding: 0px 0px 0px 0px;
-    justify-content: right;
+    margin: 0px 0px 0px 50px;
+    display: flex;
+    justify-content: flex-start;
     width: 100%;
+    align-items: center;
 }
 
 .nav-menu {
@@ -101,45 +101,53 @@ header div {
     background-color: #5A9FEE;
 }
 
-.header-script{
-    width: 310px;
-    height: 310px;
-    background-color: blue;
+
+.landing-benefits-container{
     position: relative;
-    margin: 0 0 400px 650px;
-    opacity: 0.2;
+    width: 100%;
+    display: flex;
+    -webkit-flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    color: #111B39;
 }
 
-.what-is-scope{
+.line{
+    margin-top: 8px;
+    margin-bottom: 24px;
+    background-color: linear-gradient(90deg,#3a3493,#00cce7 200%);
+    height: 10px;
+    width: 160px;
+}
+
+.benefit-left{
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+
+.benefit-right{
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+
+.align-right{
+    width: 45%;
+    margin-left: 0%;
+    box-sizing: border-box;
     display: block;
-    text-align: right;
-    padding: 10px;
-    font-size: 30px;
-    margin: 30px 50px 30px 0px;
+    position: relative;
+    order: 2;
 }
 
-#p1{
+.align-left{
+    width: 45%;
+    margin-right: 0%;
+    box-sizing: border-box;
     display: block;
-    align-content: right;
-    text-align: right;
-    -webkit-box-align: right;
-    margin: 40px 0px 0px 40px;
-    padding: 0px 40px 40px 0px;
-    font-size: 15px;
-    width: 400px;
-}
-
-#what-we-create{
-    list-style: none;
-    margin-left: 5%;
-}
-
-.the-value-we-create{
-    display: block;
-    margin: 30px 0px 30px 60px;
-    text-align: left;
-    padding: 10px;
-    font-size: 30px;
+    position: relative;
+    order: 2;
 }
 
 #type-plans {
@@ -168,7 +176,7 @@ section.pricing {
 .pricing-card {
     display: block;
     float: left;
-    margin: 15px;
+    margin: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);  
     width: 350px;
@@ -229,6 +237,13 @@ svg {
     height: 650px;
     align-items: center;
     margin-left: 50px;
+}
+
+.media-supporters{
+    margin: 55px;
+    align-items: center;
+    position: relative;
+    display: block;
 }
 
 #image-10{
