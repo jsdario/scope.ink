@@ -159,8 +159,14 @@ header div {
 .media-supporters {
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    padding: 20px;
   
+}
+
+.media-title{
+    padding-left: 20px;
+    text-align: center;
 }
 
 section.pricing {
