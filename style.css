@@ -156,11 +156,17 @@ header div {
     text-align: center;
 }
 
-#media-supporters {
-    display: block;
-    padding: 10px;
+.media-supporters {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    padding: 20px;
+  
+}
+
+.media-title{
+    padding-left: 20px;
     text-align: center;
-    margin-bottom: 50px;
 }
 
 section.pricing {
@@ -239,16 +245,6 @@ svg {
     margin-left: 50px;
 }
 
-.media-supporters{
-    align-items: center;
-    position: relative;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding-left: 30px;
-    padding-right: 30px;
-    max-width: 300px;
-}
 
 #image-10{
     margin-top: 32px;
