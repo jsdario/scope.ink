@@ -43,7 +43,6 @@ nav {
     padding: 0px 25px 0px 0px;
     text-decoration: none;
     align-items: center;
-    justify-content: flex-end;
 }
 
 a:link{
@@ -103,21 +102,17 @@ header div {
 
 
 .landing-benefits-container{
-    position: relative;
     width: 100%;
-    display: flex;
-    -webkit-flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
     color: #111B39;
 }
 
 .line{
     margin-top: 8px;
     margin-bottom: 24px;
-    background-color: linear-gradient(90deg,#3a3493,#00cce7 200%);
-    height: 10px;
-    width: 160px;
+    background: linear-gradient(90deg,#3a3493,#00cce7 200%);
+    height: 3px;
+    width: 190px;
+    align-items: center;
 }
 
 .benefit-left{
@@ -127,9 +122,9 @@ header div {
 }
 
 .benefit-right{
-    flex-direction: row;
-    justify-content: space-between;
-    margin-bottom: 25px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
 }
 
 .align-right{
