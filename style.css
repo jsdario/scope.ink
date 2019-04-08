@@ -240,10 +240,14 @@ svg {
 }
 
 .media-supporters{
-    margin: 55px;
     align-items: center;
     position: relative;
-    display: block;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+    max-width: 300px;
 }
 
 #image-10{
