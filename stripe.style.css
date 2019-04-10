@@ -1,6 +1,14 @@
 /**
  * The CSS shown here will not be introduced in the Quickstart guide, but shows
  * how you can use CSS to style your Element's container.
+  WHITE = '#E8F7FA'
+  RED = '#FA547A'
+  GREEN = '#39E8CA'
+  BRAND_BLUE = '#4067EC'
+  ACCENT_BLUE = '#5A9FEE'
+  DARK_BLUE = '#3762A4'
+  LIGHT_BLUE = '#70E4F9'
+  DARKER_BLUE = '#111B39'
  */
 
 @import url('https://fonts.googleapis.com/css?family=Merriweather|Merriweather+Sans');
@@ -11,7 +19,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Merriweather', 'Merriweather Sans', sans-serif, 'arial';
+    font-family: 'Merriweather Sans', sans-serif, 'arial';
 }
 
 a:link{
@@ -51,6 +59,7 @@ a:active{
     background-color: white;
     box-shadow: 0 1px 3px 0 #e6ebf1;
     -webkit-transition: box-shadow 150ms ease;
+    margin-top: 8px;
 }
     
     transition: box-shadow 150ms ease;
@@ -76,28 +85,67 @@ a:active{
     align-items: center;
 }
 
+.features-box{
+    border-radius: 10px;
+    list-style: none;
+    text-align: left;    
+    display: block;
+    position: relative;
+    left: 20%;
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 50%;
+    margin-top: 25px;
+}
+
+
+#open-source-features{
+    background-color: #70E4F9;
+}
+
+#startup-features{
+    background-color: #4067EC;
+}
+
+#startup-cta{
+    width: 30%;
+    height: 40px;
+    background-color: #70E4F9;
+    border-radius: 15px;
+    text-align: -webkit-center;
+}
+
 #payment-form{
-    display: block
+    display: flex;
+    position: relative;
     width: 100%;
-    padding: 40px;
     justify-content: center;
     margin-top: 80px;
-    left: 20%;
+}
+
+.form-row{
+    display: block;
+    justify-content: center;
+}
+
+.payment.button{
+    display: flex;
+    justify-content: center;
+    position: relative;
 }
 
 .submit-payment-button{
-        background-color: orange;
-        border-radius: 25px;
-        border-color: white;
-        color: #111B39;
-        padding: 2px 20px;
-        font-size: 20px;
-        cursor: pointer;
-        display: block;
-        margin: 25px;
-    }
+    background-color: orange;
+    border-radius: 25px;
+    border-color: white;
+    color: #111B39;
+    padding: 2px 20px;
+    font-size: 20px;
+    cursor: pointer;
+    display: block;
+    margin: 25px;
+}
     
 .submit-payment-button:hover{
         background-color: #5A9FEE;
     }
-}
