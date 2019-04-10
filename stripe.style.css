@@ -1,0 +1,103 @@
+/**
+ * The CSS shown here will not be introduced in the Quickstart guide, but shows
+ * how you can use CSS to style your Element's container.
+ */
+
+@import url('https://fonts.googleapis.com/css?family=Merriweather|Merriweather+Sans');
+
+body {
+    font-family: 'Merriweather Sans', sans-serif, 'arial';
+    overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Merriweather', 'Merriweather Sans', sans-serif, 'arial';
+}
+
+a:link{
+    text-decoration: none;
+}
+
+a:visited{
+    color: inherit;
+}
+
+a:active{
+    color: inherit;
+}
+
+.nav-menu {
+    display: flex;
+    color: white;
+    font-size: 15px;
+    justify-content: flex-end;
+    padding: 15px 35px 15px 15px;
+    text-decoration: none;
+    align-items: center;
+    background-color: rgba(17, 27, 57, 1);
+}
+
+.form-row{
+    width: 50%;
+    align-content: center;
+}
+
+.StripeElement {
+    box-sizing: border-box;
+    height: 40px;
+    padding: 10px 12px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    background-color: white;
+    box-shadow: 0 1px 3px 0 #e6ebf1;
+    -webkit-transition: box-shadow 150ms ease;
+}
+    
+    transition: box-shadow 150ms ease;
+
+.StripeElement--focus {
+    box-shadow: 0 1px 3px 0 #cfd7df;
+}
+
+.StripeElement--invalid {
+    border-color: #fa755a;
+}
+
+.StripeElement--webkit-autofill {
+    background-color: #fefde5 !important;
+}
+
+.logo {
+    font-size: 28px;
+    margin: 0px 0px 0px 50px;
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    align-items: center;
+}
+
+#payment-form{
+    display: block
+    width: 100%;
+    padding: 40px;
+    justify-content: center;
+    margin-top: 80px;
+    left: 20%;
+}
+
+.submit-payment-button{
+        background-color: orange;
+        border-radius: 25px;
+        border-color: white;
+        color: #111B39;
+        padding: 2px 20px;
+        font-size: 20px;
+        cursor: pointer;
+        display: block;
+        margin: 25px;
+    }
+    
+.submit-payment-button:hover{
+        background-color: #5A9FEE;
+    }
+}

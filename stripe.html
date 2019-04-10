@@ -1,0 +1,68 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>🔬 Pricing & Features</title>
+    <link href="stripe.style.css" rel="stylesheet" />
+</head>
+
+<body>
+
+    <section id="nav-menu" class="nav-menu">
+        <section id="logo" class="logo">
+            <div>🔬 Scope</div>
+        </section>
+        <a href="#about">About</a>
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        <a href="#benefits">Features</a>
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        <a href="#pricing">Pricing</a>
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        <a href="#blog">Blog</a>
+    </section>
+
+    <section class="features">
+        <div>
+            <h2>What you get?</h2>
+        </div>
+
+    </section>
+
+    <script src="https://js.stripe.com/v3/"></script>
+
+    <form action="/charge" method="post" id="payment-form">
+        <div class="form-row">
+            <label for="card-element">
+                Credit or debit card
+            </label>
+            <div id="card-element">
+                <!-- A Stripe Element will be inserted here. -->
+            </div>
+
+            <!-- Used to display form errors. -->
+            <div id="card-errors" role="alert"></div>
+        </div>
+        <div>
+            <button class="submit-payment-button">Submit Payment</button>
+        </div>  
+    </form>
+    </form>
+
+    <script src="stripe.js"></script>
+</body>
+
+</html>
