@@ -14,14 +14,11 @@
 
 body {
     font-family: 'Merriweather Sans', sans-serif, 'arial';
+    overflow-x: hidden;
 }
 
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Merriweather', 'Merriweather Sans', sans-serif, 'arial';
-}
-
-nav {
-    height: 10vh;
 }
 
 .logo {
@@ -39,8 +36,7 @@ nav {
     -webkit-text-fill-color: black;
     font-size: 15px;
     justify-content: flex-end;
-    margin: 0px 50px 15px 0px;
-    padding: 0px 25px 0px 0px;
+    padding: 15px 35px 15px 15px;
     text-decoration: none;
     align-items: center;
 }
@@ -66,14 +62,15 @@ a:hover{
 }
 
 header{
-    background-image: linear-gradient(to right, #111B39, #33F3FF);
+    background-color: #111B39
 }
 
 header {
     color: white;
     font-size: 24pt;
-    height: 90vh;
+    height: 550px;
     width: 100%;
+    z-index: 1000;
 }
 
 header div {
@@ -81,7 +78,16 @@ header div {
 }
 
 #text1{
-    width: 50%;
+    width: 45%;
+    padding: 120px 40px 0px 90px;
+}
+
+#animated-d3-background {
+    position: absolute;
+    top: 0; left: 0;
+    width: 500px;
+    z-index: 900;
+    margin: 
 }
 
 .button {
@@ -104,6 +110,11 @@ header div {
 .landing-benefits-container{
     width: 100%;
     color: #111B39;
+    display: flex;
+}
+.description{
+    align-items: center;
+    margin: 120px 90px 0 0;
 }
 
 .line{
@@ -111,38 +122,30 @@ header div {
     margin-bottom: 24px;
     background: linear-gradient(90deg,#3a3493,#00cce7 200%);
     height: 3px;
-    width: 190px;
+    width: 160px;
     align-items: center;
-}
-
-.benefit-left{
-    flex-direction: row;
-    justify-content: space-between;
-    margin-bottom: 25px;
+    display: block;
 }
 
 .benefit-right{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     padding: 20px;
+    margin-top: 40px;
+    width: 100%;
 }
 
-.align-right{
-    width: 45%;
-    margin-left: 0%;
-    box-sizing: border-box;
-    display: block;
-    position: relative;
-    order: 2;
+.body-text{
+    text-align: justify;
+    text-justify: left;
+    display: inline-block;
+    margin-top: 10px;
+    width: 400px;
 }
 
-.align-left{
-    width: 45%;
-    margin-right: 0%;
-    box-sizing: border-box;
-    display: block;
-    position: relative;
-    order: 2;
+.image-body-1{
+    display: flex;
+    align-items: center;
 }
 
 #type-plans {
@@ -151,17 +154,16 @@ header div {
     text-align: center;
 }
 
+.media-title{
+    padding-top: 120px;
+    text-align: center;
+}
+
 .media-supporters {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-evenly;
-    padding: 20px;
-  
-}
-
-.media-title{
-    padding-left: 20px;
-    text-align: center;
+    padding: 40px 0px 70px 0px;
 }
 
 section.pricing {
@@ -289,17 +291,11 @@ footer .column-contact {
 }
 
 .policy-and-legal {
-    display: -webkit-inline-flex;
+    display: flex;
     background-color: #1F2E5B; 
     padding: 0px;
-    align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
     width: 100%;
-    padding-block-end: 0px;
-}
-
-.legal-column{
-    display: block;
-    align-items: center;
-    font-size: 10px;
+    -webkit-text-fill-color: white;
+    font-size: 13px;
 }
