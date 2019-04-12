@@ -1,0 +1,49 @@
+/**
+ * The CSS shown here will not be introduced in the Quickstart guide, but shows
+ * how you can use CSS to style your Element's container.
+  WHITE = '#E8F7FA'
+  RED = '#FA547A'
+  GREEN = '#39E8CA'
+  BRAND_BLUE = '#4067EC'
+  ACCENT_BLUE = '#5A9FEE'
+  DARK_BLUE = '#3762A4'
+  LIGHT_BLUE = '#70E4F9'
+  DARKER_BLUE = '#111B39'
+ */
+
+ @import url('https://fonts.googleapis.com/css?family=Merriweather|Merriweather+Sans');
+
+ body {
+    font-family: 'Merriweather Sans', sans-serif, 'arial';
+    overflow-x: hidden;;
+    
+ }
+ 
+ h1, h2, h3, h4, h5, h6 {
+    font-family: 'Merriweather Sans', sans-serif, 'arial';
+ }
+
+.background{
+
+}
+
+#payment-details{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 75%;
+    height: 100%;
+    background-color: #4067EC; 
+    z-index: 1;
+}
+
+#startup-plan-details{
+    position: absolute;
+    background-color: #70E4F9; 
+    z-index: 2;
+    top: 0;
+    right: 0;
+    width: 40%;
+    height: 100%;
+
+}
