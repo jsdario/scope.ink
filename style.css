@@ -31,13 +31,14 @@ h1, h2, h3, h4, h5, h6 {
 
 .nav-menu {
     display: flex;
-    color: black;
-    -webkit-text-fill-color: black;
+    color: white;
+    -webkit-text-fill-color: white;
     font-size: 15px;
     justify-content: flex-end;
     padding: 15px 35px 15px 15px;
     text-decoration: none;
     align-items: center;
+    background-color: rgba(17, 27, 57, 1);
 }
 
 a:link{
@@ -117,10 +118,9 @@ header div {
 }
 
 .line{
-    margin-top: 8px;
-    margin-bottom: 24px;
-    background: linear-gradient(90deg,#3a3493,#00cce7 200%);
-    height: 3px;
+    margin: 20px 0px 20px 20px;
+    background: black;
+    height: 2px;
     width: 160px;
     align-items: center;
     display: block;
@@ -192,7 +192,7 @@ section.pricing {
     font-size: 24px;
 }
 
-#entreprise .pricing-card-header{
+#enterprise .pricing-card-header{
     background-color: #111B39;
     padding-top: 10px;
     font-size: 24px;

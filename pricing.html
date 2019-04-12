@@ -6,11 +6,11 @@
     <meta charset="utf-8">
     <title>🔬 Pricing & Features</title>
     <style>
-            * {
-                margin: 0;
-                padding: 0;
-            }
-        </style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+    </style>
     <link href="pricing-style.css" rel="stylesheet" />
 </head>
 
@@ -40,53 +40,113 @@
         <a href="#blog">Blog</a>
     </section>
 
+    <section class="pricing">
+            <div id="open-source" class="pricing-card">
+                <div class="pricing-card-header">
+                    <span>🔬Open Source</span>
+                </div>
+                <div class="pricing-card-body">
+                    <ul>
+                        <li>Only for public repos</li>
+                        &nbsp;
+                        <li>Limited features</li>
+                        &nbsp;
+                        <li><button class="cta-button"><a href="/pricing.html">🍏Try</a></button></li>
+                    </ul>
+                </div>
+            </div>
+            <div id="startup" class="pricing-card">
+                <div class="pricing-card-header">
+                    <span>🚀Start up</span>
+                </div>
+                <div class="pricing-card-body">
+                    <ul>
+                        <li>Private repos</li>
+                        &nbsp;
+                        <li>Premium features</li>
+                        &nbsp;
+                        <li><button class="cta-button"><a href="/pricing.html">🤘🏼Hire</a></button></li>
+                    </ul>
+                </div>
+            </div>
+            <div id="enterprise" class="pricing-card">
+                <div class="pricing-card-header">
+                    <span>🔭Enterprise</span>
+                </div>
+                <div class="pricing-card-body">
+                    <ul>
+                        <li>Unlimited repos & members</li>
+                        &nbsp;
+                        <li>More than code</li>
+                        &nbsp;
+                        <li><button class="cta-button"><a href="/pricing.html">🔍Ask</a></button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
     <section id="meet-our-plans">
-        <h2>Meet our plans!</h2>
+        <h2>Meet our Start-up Plan!</h2>
     </section>
 
     <section class="features">
-        <div id="open-source-features" class="features-box">
-            <div class="features-box-header">
-                <h3>Open Source Plan</h3>
-            </div>
-            <div>
-                <h2 class="cta">Free/limited</h2>
-                <div class="cta-line"></div>
-            </div>
-            <div class="features-box-body">
-                <li>✅ Access to one visualization</li>
-                <li>✅ Only for public repositories</li>
-                <li>❌ Private repositories</li>
-                <li>❌ Access metadata</li>
-            </div>
-        </div>
         <div id="startup-features" class="features-box">
             <div class="features-box-header">
-                <h3>Start-up Plan</h3>
+                <h2>Features</h2>
             </div>
-                <h2 class="cta">14,99€/Month</h2>
-                <div class="cta-line"></div>
+            <div class="features-line"></div>
             <div class="features-box-body">
-                <li>✅ Abc abc abcabc abcabc abcabc abc</li>
-                <li>✅ Abc abc abcabc abcabc abcabc abc</li>
-                <li>✅ Abc abc abcabc abcabc abcabc abc</li>
-                <li>✅ Abc abc abcabc abcabc abcabc abc</li>
-            </div>
-        </div>
-        <div id="entreprise-features" class="features-box">
-            <div class="features-box-header">
-                <h3>Entreprise Plan</h3>
-            </div>
-                <h2 class="cta">Ask for budget!</h2>
-                <div class="cta-line"></div>
-            <div class="features-box-body">
-                <li>✅ Abc abc abcabc abcabc abcabc abc</li>
-                <li>✅ Abc abc abcabc abcabc abcabc abc</li>
-                <li>✅ Abc abc abcabc abcabc abcabc abc</li>
-                <li>✅ Abc abc abcabc abcabc abcabc abc</li>
+                <ul>
+                    <li>Abc abc abcabc abcabc abcabc abc</li>
+                    <li>Abc abc abcabc abcabc abcabc abc</li>
+                    <li>Abc abc abcabc abcabc abcabc abc</li>
+                    <li>Abc abc abcabc abcabc abcabc abc</li>
+                </ul>
             </div>
         </div>
     </section>
+
+    <section id="meet-our-plans">
+        <h2>Our Prices!</h2>
+    </section>
+
+    <section class="pricing-table">
+        <div clas="pricing-table-body"></div>
+        <div class="tab">
+            <button class="tablinks" onclick="openCity(event, 'Monthly')">Monthly</button>
+            <button class="tablinks" onclick="openCity(event, 'Anually')">Anually</button>
+        </div>
+
+        <!-- Tab content -->
+        <div id="Monthly" class="tabcontent">
+            <h3>Monthly</h3>
+            <p>9,99€</p>
+        </div>
+
+        <div id="Anually" class="tabcontent">
+            <h3>Anually</h3>
+            <p>99,99€</p>
+        </div>
+    </section>
+
+    <section>
+        <form action="/charge" method="post" id="payment-form">
+            <div class="form-row">
+                <label for="card-element">
+                    Credit or debit card
+                </label>
+                <div id="card-element">
+                    <!-- A Stripe Element will be inserted here. -->
+                </div>
+                <!-- Used to display form errors. -->
+                <div id="card-errors" role="alert"></div>
+            </div>
+    </section>
+    <div class="button-class">
+        <button id="cta-stripe">💶 Insert Coin</button>
+    </div>
+    </form>
 
     <section>
         <h2 class="media-title">Media & Supporters</h2>
@@ -95,8 +155,10 @@
                 <img src="http://www.uma.es/media/fotos/image_27117.png" height="60px" width="150px" />
             </div>
             <div>
-                <a href="https://www.europapress.es/esandalucia/malaga/noticia-sevilla-malaga-almeria-cordoba-acogen-84-nuevos-emprendedores-andalucia-open-future-20190410132049.html" target="_blank">
-                <img src="http://legal-innovation.com/wp-content/uploads/2017/05/logo-europapress.jpg" height="60px" width="150px" />
+                <a href="https://www.europapress.es/esandalucia/malaga/noticia-sevilla-malaga-almeria-cordoba-acogen-84-nuevos-emprendedores-andalucia-open-future-20190410132049.html"
+                    target="_blank">
+                    <img src="http://legal-innovation.com/wp-content/uploads/2017/05/logo-europapress.jpg" height="60px"
+                        width="150px" />
                 </a>
             </div>
             <div>
@@ -146,6 +208,11 @@
             </div>
         </div>
     </footer>
+
+
+    <script src="https://js.stripe.com/v3/"></script>
+    <script src="stripe.js"></script>
+    <script src="pricing-table.js"></script>
 
 </body>
 
