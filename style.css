@@ -147,6 +147,12 @@ header div {
     align-items: center;
 }
 
+#anatomy-of-pr {
+    position: relative;
+    right: -180px;
+    top: -300PX;
+}
+
 #type-plans {
     display: block;
     padding: 10px;
