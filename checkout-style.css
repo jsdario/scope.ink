@@ -35,6 +35,8 @@
     height: 100%;
     background-color: #4067EC; 
     z-index: 1;
+    border: 0px solid;
+    border-radius: 15px;
 }
 
 #startup-plan-details{
@@ -45,5 +47,6 @@
     right: 0;
     width: 40%;
     height: 100%;
-
+    border: 0px solid;
+    border-radius: 15px;
 }

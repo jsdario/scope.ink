@@ -126,7 +126,7 @@ header div {
     display: block;
 }
 
-.benefit-right{
+.benefit {
     display: flex;
     justify-content: center;
     padding: 20px;

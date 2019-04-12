@@ -22,6 +22,12 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Merriweather Sans', sans-serif, 'arial';
 }
 
+h2{
+    background: -webkit-linear-gradient(0deg, #5A9FEE, #70E4F9);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 a:link{
     text-decoration: none;
 }
@@ -36,13 +42,13 @@ a:active{
 
 .nav-menu {
     display: flex;
-    color: white;
+    color: black;
     font-size: 15px;
     justify-content: flex-end;
     padding: 15px 35px 15px 15px;
     text-decoration: none;
     align-items: center;
-    background-color: rgba(17, 27, 57, 1);
+    background-color: white;
 }
 
 .form-row{
@@ -51,7 +57,7 @@ a:active{
 }
 
 #meet-our-plans{
-    display: flex;
+    display: grid;
     justify-content: center;
     margin-top: 60px;
 }
