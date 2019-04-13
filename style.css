@@ -20,6 +20,12 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Merriweather Sans', sans-serif, 'arial';
 }
 
+h2{
+    background: -webkit-linear-gradient(180deg, #5A9FEE, #70E4F9);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 .logo {
     font-size: 28px;
     margin: 0px 0px 0px 50px;
@@ -113,7 +119,7 @@ header div {
     display: flex;
 }
 .description{
-    align-items: center;
+
     margin: 120px 90px 0 0;
 }
 
@@ -124,6 +130,7 @@ header div {
     width: 160px;
     align-items: center;
     display: block;
+    background-color: orange;
 }
 
 .benefit {
@@ -285,8 +292,4 @@ footer .column-contact {
     width: 100%;
     -webkit-text-fill-color: white;
     font-size: 13px;
-}
-
-#body-text{
-    background-image: linear-gradient(90deg, rgba(17, 27, 57, 1), #39E8CA);
 }
