@@ -136,7 +136,6 @@ header div {
 .benefit {
     display: flex;
     justify-content: center;
-    padding: 20px;
     margin-top: 40px;
     width: 100%;
 }
