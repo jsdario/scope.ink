@@ -286,3 +286,7 @@ footer .column-contact {
     -webkit-text-fill-color: white;
     font-size: 13px;
 }
+
+#body-text{
+    background-image: linear-gradient(90deg, rgba(17, 27, 57, 1), #39E8CA);
+}
