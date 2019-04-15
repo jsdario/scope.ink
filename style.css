@@ -20,10 +20,8 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Merriweather Sans', sans-serif, 'arial';
 }
 
-h2{
-    background: -webkit-linear-gradient(180deg, #5A9FEE, #70E4F9);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+h1{
+    font-size: 24pt;
 }
 
 .logo {
@@ -44,7 +42,7 @@ h2{
     padding: 15px 35px 15px 15px;
     text-decoration: none;
     align-items: center;
-    background-color: rgba(17, 27, 57, 1);
+    background-color: #4067EC;
 }
 
 a:link{
@@ -60,15 +58,11 @@ a:active{
 }
 
 a:hover{
-    color:orange;
+    color:#FA547A;
 }
 
 .nav-menu a:hover{
-    color: red;
-}
-
-header{
-    background-color: rgba(17, 27, 57, 1);
+    color: #FA547A;
 }
 
 header {
@@ -77,6 +71,9 @@ header {
     height: 550px;
     width: 100%;
     z-index: 1000;
+    background-color: #4067EC;
+    display: block;
+    border-bottom-left-radius: 30%;
 }
 
 header div {
@@ -86,6 +83,11 @@ header div {
 #text1{
     width: 45%;
     padding: 120px 40px 0px 90px;
+    font-size: 48pt;
+}
+
+#blue-text{
+    color: #70E4F9;
 }
 
 #animated-d3-background {
@@ -97,21 +99,24 @@ header div {
 }
 
 .button {
-    background-color: orange;
+    background-color: #FA547A;
+    border: 0px;
     border-radius: 25px;
-    border-color: white;
     color: #111B39;
     padding: 15px 32px;
     font-size: 20px;
     cursor: pointer;
     display: block;
     margin: 9% 0% 0% 15%;
+    -webkit-box-shadow: 6px 7px 25px -5px rgba(0,0,0,0.75);
+    -moz-box-shadow: 6px 7px 25px -5px rgba(0,0,0,0.75);
+    box-shadow: 6px 7px 25px -5px rgba(0,0,0,0.75);
 }
 
 .button:hover{
-    background-color: #5A9FEE;
+    background-color: #FA547A;
+    opacity: 0.92;
 }
-
 
 .landing-benefits-container{
     width: 100%;
@@ -126,11 +131,11 @@ header div {
 .line{
     margin: 20px 0px 20px 20px;
     background: black;
-    height: 2px;
+    height: 1px;
     width: 160px;
     align-items: center;
     display: block;
-    background-color: orange;
+    background-color: #111B39;
 }
 
 .benefit {
@@ -151,6 +156,14 @@ header div {
 .image-body-1{
     display: flex;
     align-items: center;
+}
+
+.image-body-pr{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    right: 0;
+    z-index: 100;
 }
 
 #anatomy-of-pr {
@@ -235,6 +248,13 @@ section.pricing {
     text-align: center;
 }
 
+#p-scope-description{
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    padding: 20px;
+}
+
 .media-supporters {
     display: flex;
     flex-flow: row wrap;
@@ -244,7 +264,7 @@ section.pricing {
 
 footer {
     color: white;
-    background-color: #111B39;
+    background-color: #4067EC;
     width: 100%;
     justify-content: center;
 }
@@ -257,7 +277,7 @@ footer .column-contact {
     height: 50px;
     float: left;
     justify-items: center;
-    background-color: #111B39;
+    background-color: #4067EC;
 }
 
 .all-columns {
@@ -283,9 +303,21 @@ footer .column-contact {
     color: inherit;
 }
 
+::placeholder{
+    color: #111B39;
+}
+
+#input-style{
+    border: 0px;
+    padding: 10px;
+    border-radius: 15px;
+    width: 50%;
+    background-color: #FA547A
+}
+
 .policy-and-legal {
     display: flex;
-    background-color: #1F2E5B; 
+    background-color: #4067EC;
     padding: 0px;
     justify-content: space-evenly;
     width: 100%;
