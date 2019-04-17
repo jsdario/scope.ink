@@ -65,6 +65,10 @@ a:hover{
     color: #FA547A;
 }
 
+a#logo-link:hover{
+    color: inherit;
+}
+
 header {
     color: white;
     font-size: 24pt;
@@ -73,7 +77,7 @@ header {
     z-index: 1000;
     background-color: #4067EC;
     display: block;
-    border-bottom-left-radius: 30%;
+    border-bottom-left-radius: 20%;
 }
 
 header div {
@@ -116,6 +120,10 @@ header div {
 .button:hover{
     background-color: #FA547A;
     opacity: 0.92;
+}
+
+a#start-cta-link:hover{
+    color: white;
 }
 
 .landing-benefits-container{
@@ -164,12 +172,16 @@ header div {
     position: absolute;
     right: 0;
     z-index: 100;
+    width: 800px;
+    height: 800px;
 }
 
 #anatomy-of-pr {
     position: relative;
     right: -180px;
     top: -300PX;
+    width: 100%;
+    height: auto;
 }
 
 #type-plans {
