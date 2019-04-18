@@ -22,12 +22,6 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Merriweather Sans', sans-serif, 'arial';
 }
 
-h1{
-    background: -webkit-linear-gradient(0deg, #5A9FEE, #70E4F9);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-
 h2{
     color: white;
 }
@@ -60,10 +54,14 @@ a:active{
     align-content: center;
 }
 
-#meet-our-plans{
-    display: grid;
-    justify-content: center;
-    margin-top: 60px;
+.scope-title {
+    padding-top: 50px;
+    text-align: center;
+    margin: 50px 0px 20px 0px;
+}
+
+#color-title {
+    color: #3762A4;
 }
 
 .logo {
@@ -366,9 +364,9 @@ section.pricing {
 .cta-button{
     background-color: #F1F5FF;
     border-radius: 10px;
-    border-color: white;
+    border: 0px;
     color: white;
-    background-color: orange;
+    background-color: #FA547A;
     padding: 4px 15px;
     font-size: 20px;
     cursor: pointer;
