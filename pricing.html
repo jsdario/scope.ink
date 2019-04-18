@@ -5,6 +5,7 @@
 <head>
     <meta charset="utf-8">
     <link rel="shortcut icon" href="https://scope.ink/favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>🔬 Pricing & Features</title>
     <style>
         * {
@@ -36,8 +37,8 @@
     </section>
 
     <section id="meet-our-plans">
-            <h1 class="scope-title">Meet our <span id="color-title">Plans</span>!</h1>
-            &nbsp;
+        <h1 class="scope-title">Meet our <span id="color-title">Plans</span>!</h1>
+        &nbsp;
     </section>
 
     <section class="pricing">
@@ -61,7 +62,9 @@
         </div>
         <div id="startup" class="pricing-card">
             <div class="pricing-card-header">
-                <span><h2>🚀 Start up</h2></span>
+                <span>
+                    <h2>🚀 Start up</h2>
+                </span>
             </div>
             <div class="pricing-card-body">
                 <ul>
@@ -77,7 +80,8 @@
                     &nbsp;
                     <li id="free-trial-text">Try 14 days for free!</li>
                     &nbsp;
-                    <li><button class="cta-button"><a href="/checkout.html" target="_blank">9,99€/month</a></button></li>
+                    <li><button class="cta-button"><a href="/checkout.html" target="_blank">9,99€/month</a></button>
+                    </li>
                     &nbsp;
                     <li id="anually-text">99,99€ anually!</li>
                 </ul>
@@ -99,7 +103,8 @@
                     &nbsp;
                     <li id="free-trial-text">Try 14 days for free!</li>
                     &nbsp;
-                    <li><button class="cta-button"><a href="/checkout.html" target="_blank">19,99€/month</a></button></li>
+                    <li><button class="cta-button"><a href="/checkout.html" target="_blank">19,99€/month</a></button>
+                    </li>
                     &nbsp;
                     <li id="anually-text">219,99€ anually!</li>
                 </ul>
@@ -107,72 +112,21 @@
         </div>
     </section>
 
-    <section class="features">
-        <div id="startup-features" class="features-box">
-            <div class="features-box-header">
-                <h2>Features</h2>
-            </div>
-            <div class="features-line"></div>
-            <div class="features-box-body">
-                <ul>
-                    <li>Abc abc abcabc abcabc abcabc abc</li>
-                    <li>Abc abc abcabc abcabc abcabc abc</li>
-                    <li>Abc abc abcabc abcabc abcabc abc</li>
-                    <li>Abc abc abcabc abcabc abcabc abc</li>
-                </ul>
-            </div>
-        </div>
-    </section>
-
-
-    <section class="pricing-table">
-        <div clas="pricing-table-body"></div>
-        <div class="tab">
-            <button class="tablinks" onclick="openCity(event, 'Monthly')">Monthly</button>
-            <button class="tablinks" onclick="openCity(event, 'Anually')">Anually</button>
-        </div>
-
-        <!-- Tab content -->
-        <div id="Monthly" class="tabcontent">
-            <h3>Monthly</h3>
-            <p>9,99€</p>
-        </div>
-
-        <div id="Anually" class="tabcontent">
-            <h3>Anually</h3>
-            <p>99,99€</p>
-        </div>
-    </section>
-
     <section>
-        <form action="/charge" method="post" id="payment-form">
-            <div class="form-row">
-                <label for="card-element">
-                    Credit or debit card
-                </label>
-                <div id="card-element">
-                    <!-- A Stripe Element will be inserted here. -->
-                </div>
-                <!-- Used to display form errors. -->
-                <div id="card-errors" role="alert"></div>
-            </div>
-    </section>
-    <div class="button-class">
-        <button id="cta-stripe">💶 Insert Coin</button>
-    </div>
-    </form>
 
+    </section>
+        <h1 class="media-title">F.A.Q</h1>
     <section>
-        <h2 class="media-title">Media & Supporters</h2>
+        <h1 class="media-title">Media & <span id="color-title">Supporters</span></h1>
         <div class="media-supporters">
             <div>
                 <img src="http://www.uma.es/media/fotos/image_27117.png" height="60px" width="150px" />
             </div>
             <div>
                 <a href="https://www.europapress.es/esandalucia/malaga/noticia-sevilla-malaga-almeria-cordoba-acogen-84-nuevos-emprendedores-andalucia-open-future-20190410132049.html"
-                    target="_blank">
-                    <img src="http://legal-innovation.com/wp-content/uploads/2017/05/logo-europapress.jpg" height="60px"
-                        width="150px" />
+                    target="_blank" />
+                <img src="http://legal-innovation.com/wp-content/uploads/2017/05/logo-europapress.jpg" height="60px"
+                    width="150px" />
                 </a>
             </div>
             <div>
@@ -182,44 +136,46 @@
         </div>
     </section>
 
-    <footer>
-        <div class="all-columns">
-            <div id="contact" class="column-contact">
-                <div class="column-contact-header">
-                    <span>📱Contact us!</span>
-                </div>
-                <div class="column-contact-body">
-                    <br><span>hello💌scope.ink</span></br>
-                </div>
+    <section class="subscribe-newsletter">
+        <div class="subscribe-column">
+            <div>
+                <h1>Subscribe to our <span id="color-title">newsletter</span>!</h1>
             </div>
-            <div id="newsletter" class="column-contact">
-                <div class="column-contact-header">
-                    <span>📬Subscribe to our newsletter!</span>
-                </div>
-                <div class="column-contact-body">
-                    <br><input placeholder="your email"></br>
-                </div>
+            &nbsp;
+            <div>
+                <p id="text-newsletter">Keep connected with us. We won't spam you, just will inform about the last
+                    releases
+                    for Scope and what it is intereseting about the visualizations.</p>
             </div>
-            <div id="social-media" class="column-contact">
-                <div class="column-contact-header">
-                    <span>👨‍👩‍👧‍👧Follow us!</span>
-                </div>
-                <div class="column-contact-body">
-                    <br><a href="https://www.twitter.com/scope_ink"><span>🐦Twitter</a></span></br>
-                    <br><a href="https://www.linkedin.com/company/scope-ink"><span>🛠Linkedin</a></span></br>
-                </div>
+            <div>
+                <br><input id="input-style" placeholder="your email..."></br>
             </div>
         </div>
-        <div class="policy-and-legal">
+        <div class="subscribe-column">
             <div>
-                <a href="https://scope.ink/legal"><span>Legal</span></a>
+                <h1>Follow our <span id="color-title">socials</span>!</h1>
             </div>
-            <div>
-                <a href="https://scope.ink/privacy-policy"><span>Privacy Policy</span></a>
+            &nbsp;
+            <div id="social-media-margin">
+                <a href="//twitter.com/Scope_ink" target="_blank" class="fa fa-twitter"></a>
+                <a href="//linkedin.com/company/scope-ink" target="_blank" class="fa fa-linkedin"></a>
+                <a href="mailto:hello@scope.ink" target="_blank" class="fa fa-at"></a>
             </div>
-            <div>
-                <a href="https://scope.ink/cookies"><span>Cookies</span></a>
-            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div id="legal">
+            <p><a href="https://scope.ink/privacy-policy" target="_blank"><span id="legal-span">Privacy
+                        Policy</span></a></p>
+        </div>
+        <div id="legal">
+            <p><a href="https://scope.ink/legal" target="_blank"><span id="legal-span">Legal</span></a></p>
+        </div>
+        <div id="legal">
+            <p><a href="https://scope.ink/cookies" target="_blank"><span id="legal-span">Cookies</span></a>
+        </div>
+        </p>
         </div>
     </footer>
 
