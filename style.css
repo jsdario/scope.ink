@@ -93,15 +93,6 @@ header div {
     color: #70E4F9;
 }
 
-#animated-d3-background {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 500px;
-    z-index: 900;
-    margin:
-}
-
 .button {
     background-color: #FA547A;
     border: 0px;

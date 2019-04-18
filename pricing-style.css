@@ -352,6 +352,7 @@ section.pricing {
     margin-left: -50px;
     z-index: -1;
     position: relative;
+    height: 380px;
 }
 
 .pricing-card-body ul{
@@ -385,4 +386,8 @@ section.pricing {
     color: red;
     font-size: 13px;
     margin-top: -10px;
+}
+
+#enterprise #anually-text{
+    margin-top: 10px;
 }
