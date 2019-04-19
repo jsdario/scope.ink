@@ -189,7 +189,7 @@ section.pricing {
 }
 
 .active, .accordion:hover {
-    background-color: rgb(64, 103, 236, 1);
+    background-image: linear-gradient(270deg, #5A9FEE, #70E4F9);
 }
 
 
