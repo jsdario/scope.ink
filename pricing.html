@@ -112,10 +112,41 @@
         </div>
     </section>
 
-    <section>
+    <section class="row" align="center">
+        <h1 class="media-title">F.<span id="color-title">A.</span>Q</h1>
+        <button class="accordion">What is Scope?</button>
+        <div class="panel">
+            <p>Basically, Scope is a tool that ables you to measure the work of a developer. It uses an algorithm to determine
+                how the work is being done into the code. With Scope, you can analyze several parts of the creative work as pull requests,
+                commits, reviews done, tests, etc. and the software prints visualizations so it's easier to see what's happening around the code.
+            </p>
+        </div>
 
+        <button class="accordion">What do yu need to use it?</button>
+        <div class="panel">
+            <p>For the moment, Scope is only integrated with GitHub and GitLab, so you will have to use these services
+                to stock your repositories. We are working hard and fast to integrate others services like Bitbucket and etc.
+            </p>
+        </div>
+
+        <button class="accordion">How can you use it?</button>
+        <div class="panel">
+            <p>If you use GitHub or GitLab, you only need to have or to be collaborator of a repository. Insert the repos
+                into Scope and the software will do the rest for you!</p>
+        </div>
+
+        <button class="accordion">Why is worth to use it?</button>
+        <div class="panel">
+            <p>All data are stored and can be reviewed anytime. With Scope, we help you to visualize those data,
+                making it easier to understand the workflow of your company. We understand that visualizing data it is 
+                much easier to see what's happening around! Additionally, Scope is a tool that motivates your team
+                to work better and efficiently. Don't be lax or you will pay the next beer! ;)
+            </p>
+        </div>
     </section>
-        <h1 class="media-title">F.A.Q</h1>
+
+
+
     <section>
         <h1 class="media-title">Media & <span id="color-title">Supporters</span></h1>
         <div class="media-supporters">
@@ -180,6 +211,22 @@
     </footer>
 
     <script src="pricing-table.js"></script>
+    <script>
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+
+        for (i = 0; i < acc.length; i++) {
+            acc[i].addEventListener("click", function () {
+                this.classList.toggle("active");
+                var panel = this.nextElementSibling;
+                if (panel.style.display === "block") {
+                    panel.style.display = "none";
+                } else {
+                    panel.style.display = "block";
+                }
+            });
+        }
+    </script>
 
 </body>
 
