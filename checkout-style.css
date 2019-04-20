@@ -13,12 +13,18 @@
 
  @import url('https://fonts.googleapis.com/css?family=Merriweather|Merriweather+Sans');
 
+ * {
+    box-sizing: border-box;
+  }
+
  body {
     font-family: 'Merriweather Sans', sans-serif, 'arial';
     overflow-x: hidden;;
     
  }
  
+
+
  h1, h2, h3, h4, h5, h6 {
     font-family: 'Merriweather Sans', sans-serif, 'arial';
  }
