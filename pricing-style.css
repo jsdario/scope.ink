@@ -37,6 +37,9 @@ a:active {
     color: inherit;
 }
 
+/**HEADER
+*/
+
 .nav-menu {
     display: flex;
     color: black;
@@ -48,11 +51,6 @@ a:active {
     background-color: white;
 }
 
-.form-row {
-    width: 50%;
-    align-content: center;
-}
-
 .scope-title {
     padding-top: 50px;
     text-align: center;
@@ -60,7 +58,7 @@ a:active {
 }
 
 #color-title {
-    color: #3762A4;
+    color: #4067EC;
 }
 
 .logo {
@@ -174,7 +172,7 @@ section.pricing {
 */
 
 .accordion {
-    background-color: rgb(64, 103, 236, 0.7);
+    background-color: #4067EC;
     color: white;
     cursor: pointer;
     padding: 18px;

@@ -11,48 +11,77 @@
   DARKER_BLUE = '#111B39'
  */
 
- @import url('https://fonts.googleapis.com/css?family=Merriweather|Merriweather+Sans');
-
- * {
+@import url('https://fonts.googleapis.com/css?family=Merriweather|Merriweather+Sans');
+* {
     box-sizing: border-box;
-  }
-
- body {
-    font-family: 'Merriweather Sans', sans-serif, 'arial';
-    overflow-x: hidden;;
-    
- }
- 
-
-
- h1, h2, h3, h4, h5, h6 {
-    font-family: 'Merriweather Sans', sans-serif, 'arial';
- }
-
-.background{
-
 }
 
-#payment-details{
-    position: absolute;
-    top: 0;
-    left: 0;
+body {
+    font-family: 'Merriweather Sans', sans-serif, 'arial';
+    overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Merriweather Sans', sans-serif, 'arial';
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+    border: solid;
+    border-bottom-color: red;
+}
+
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
     width: 75%;
-    height: 100%;
-    background-color: #4067EC; 
-    z-index: 1;
-    border: 0px solid;
-    border-radius: 15px;
 }
 
-#startup-plan-details{
-    position: absolute;
-    background-color: #70E4F9; 
-    z-index: 2;
-    top: 0;
-    right: 0;
-    width: 40%;
-    height: 100%;
-    border: 0px solid;
-    border-radius: 15px;
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
 }
