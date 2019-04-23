@@ -149,15 +149,14 @@ header nav ul li a {
 
 .prices {
     display: inline-block;
-    background-color: #FA547A;
-    padding: 5px;
     float: right;
-    border-radius: 25px;
     position: relative;
-    top: -105px;
-    width: 70px;
+    top: -100px;
+    width: 80px;
     text-align: center;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-size: 14px;
+    color: white;
+    font-weight: bold;
 }
 
 .line {
@@ -168,7 +167,9 @@ header nav ul li a {
 }
 
 .anually {
-    color: black;
+    color: #FA547A;
+    margin-top: -20px;
+    font-size: 17px;
 }
 
 /*STRIPE*/
@@ -291,6 +292,7 @@ footer {
         margin: 0 auto;
         margin-bottom: 50px;
         justify-content: center;
+        text-align: center;
     }
     
     .box-plan h2 {
@@ -298,7 +300,8 @@ footer {
         font-weight: bold;
         font-size: 23px;
         color: white;
-        margin-bottom: 10px;
+        margin-bottom: 40px;
+        margin-top: 20px;
     }
     
     .startup-box-plan {
@@ -312,7 +315,7 @@ footer {
     }
 
     .startup-box-plan li{
-        line-height: 30px;
+        line-height: 40px;
     }
     
     .enterprise-box-plan {
@@ -327,24 +330,16 @@ footer {
     }
 
     .enterprise-box-plan li{
-        line-height: 30px;
+        line-height: 40px;
     }
     
     .enterprise-box-plan h2 {
-        margin-left: 70px;
+        margin-left: 0px;
+        margin-top: 20px;
     }
     
     .prices {
-        display: inline-block;
-        background-color: #FA547A;
-        padding: 5px;
-        float: right;
-        border-radius: 25px;
-        position: relative;
-        top: -105px;
-        width: 70px;
-        text-align: center;
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        
     }
     
     .line {
