@@ -72,12 +72,12 @@ table {
 
 /*HEADER*/
 
-header{
+header {
     width: 100%;
     height: 80px;
 }
 
-header .header-brand{
+header .header-brand {
     font-size: 28px;
     color: black;
     display: block;
@@ -87,7 +87,7 @@ header .header-brand{
     text-decoration: none;
 }
 
-header nav ul{
+header nav ul {
     margin: 0 auto;
     margin-top: 10px;
     display: block;
@@ -100,7 +100,6 @@ header nav ul li {
     list-style: none;
     font-size: 16px;
     padding: 0px 10px;
-    cursor: pointer;
 }
 
 header nav ul li a {
@@ -109,7 +108,7 @@ header nav ul li a {
 
 /*BODY*/
 
-.box-plan{
+.box-plan {
     display: block;
     line-height: 20px;
     margin-top: 30px;
@@ -117,35 +116,241 @@ header nav ul li a {
     font-size: 14px;
 }
 
-.box-plan h2{
+.box-plan h2 {
     text-align: center;
     font-weight: bold;
     font-size: 18px;
     color: white;
+    margin-bottom: 10px;
 }
 
-.startup-box-plan{
+.startup-box-plan {
     background-image: linear-gradient(90deg, #5A9FEE, #70E4F9);
     color: white;
     border-radius: 15px;
     padding: 15px;
     font-size: 11px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.enterprise-box-plan{
+.enterprise-box-plan {
     background-image: linear-gradient(90deg, #111B39, #304172);
     color: white;
     border-radius: 15px;
     padding: 15px;
     font-size: 11px;
     margin-top: 25px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.startup-price{
-    display: flex;
-    background-color: orange;
-    padding: 10px;
-    float: left;
+.enterprise-box-plan h2 {
+    margin-left: 70px;
+}
+
+.prices {
+    display: inline-block;
+    background-color: #FA547A;
+    padding: 5px;
+    float: right;
     border-radius: 25px;
-    width: 40px;
+    position: relative;
+    top: -105px;
+    width: 70px;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.line {
+    height: 1px;
+    margin-top: 5px;
+    margin-bottom: -15px;
+    background-color: #111B39;
+}
+
+.anually {
+    color: black;
+}
+
+/*STRIPE*/
+
+/**
+ * The CSS shown here will not be introduced in the Quickstart guide, but shows
+ * how you can use CSS to style your Element's container.
+ */
+
+#payment-form{
+    text-align: center;
+}
+
+.StripeElement {
+    box-sizing: border-box;
+    display: inline-block;
+    width: 400px;
+    height: 40px;
+    padding: 10px 12px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    background-color: white;
+    box-shadow: 0 1px 3px 0 #e6ebf1;
+    -webkit-transition: box-shadow 150ms ease;
+    transition: box-shadow 150ms ease;
+}
+
+.StripeElement--focus {
+    box-shadow: 0 1px 3px 0 #cfd7df;
+}
+
+.StripeElement--invalid {
+    border-color: #fa755a;
+}
+
+.StripeElement--webkit-autofill {
+    background-color: #fefde5 !important;
+}
+
+.stripe-button{
+    background-color: #FA547A;
+    color: white;
+    font-size: 15px;
+    border-radius: 15px;
+    padding: 10px;
+    display: flex;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    margin-top: 30px;
+    position: relative;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+label{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    text-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/*FOOTER*/
+
+footer {
+    background-color: rgb(64, 103, 236, 0.75);
+    display: flex;
+    justify-content: space-evenly;
+    position: absolute;
+    width: 100%;
+    font-size: 12px;
+    margin: 0 auto;
+    height: 20px;
+    padding: 3px;
+}
+
+#legal{
+    margin: 0 auto;
+    margin-top: 5px;
+}
+
+#legal-span{
+    color: white;
+}
+
+#legal-span:hover{
+    color: #FA547A;
+}
+
+/*MEDIA DESKTOP*/
+
+@media only screen and (min-width: 800px) {
+    header .header-brand {
+        margin: 0 ;
+        text-align: left;
+        padding: 30px 30px 30px 50px;
+        width: fit-content;
+    }
+
+    header nav ul {
+        margin: -40px 50px;
+        display: inline-block;
+        float: right;
+
+    }
+    
+    header nav ul li {
+        padding: 0px 10px;
+    }
+
+    /*BOX PRICE*/
+
+    .box-plan {
+        width: 100%;
+        height: fit-content;
+        display: flex;
+        align-items: baseline;
+        margin: 0 auto;
+        margin-bottom: 50px;
+        justify-content: center;
+    }
+    
+    .box-plan h2 {
+        text-align: center;
+        font-weight: bold;
+        font-size: 23px;
+        color: white;
+        margin-bottom: 10px;
+    }
+    
+    .startup-box-plan {
+        background-image: linear-gradient(90deg, #5A9FEE, #70E4F9);
+        color: white;
+        border-radius: 20px;
+        padding: 15px;
+        font-size: 16px;
+        margin-right: 70px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+    .startup-box-plan li{
+        line-height: 30px;
+    }
+    
+    .enterprise-box-plan {
+        background-image: linear-gradient(90deg, #111B39, #304172);
+        color: white;
+        border-radius: 20px;
+        padding: 15px;
+        font-size: 16px;
+        margin-top: 25px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        vertical-align: baseline;
+    }
+
+    .enterprise-box-plan li{
+        line-height: 30px;
+    }
+    
+    .enterprise-box-plan h2 {
+        margin-left: 70px;
+    }
+    
+    .prices {
+        display: inline-block;
+        background-color: #FA547A;
+        padding: 5px;
+        float: right;
+        border-radius: 25px;
+        position: relative;
+        top: -105px;
+        width: 70px;
+        text-align: center;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    
+    .line {
+        height: 1px;
+        margin-top: 5px;
+        margin-bottom: -15px;
+        background-color: #111B39;
+    }
 }

@@ -310,16 +310,19 @@ section.pricing {
 
 footer {
     background-color: rgb(64, 103, 236, 0.75);
-    width: 100%;
     display: flex;
     justify-content: space-evenly;
+    position: absolute;
+    width: 100%;
     font-size: 12px;
+    margin: 0 auto;
+    height: 20px;
+    padding: 3px;
 }
 
 #legal{
-    display: flex;
-    justify-content: space-evenly;
-    margin-left: 100px;
+    margin: 0 auto;
+    margin-top: 5px;
 }
 
 #legal-span{

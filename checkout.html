@@ -11,6 +11,9 @@
 </head>
 
 <body>
+
+<!--HEADER-->
+
     <header>
         <a href="index.html" class="header-brand">🔬 Scope</a>
         <nav>
@@ -22,6 +25,8 @@
         </nav>
     </header>
 
+<!--PLANS BOXES-->
+
     <section class="box-plan">
         <div class="startup-box-plan">
             <h2>🚀Startup Plan!</h2>
@@ -32,7 +37,10 @@
                 <li>Premium support</li>
                 <li>Premium access to new releases</li>
             </ul>
-            <span class="startup-price">9,99€<br>month!</br></span>
+            <span class="prices">9,99€<br>month</br>
+                <div class="line">&nbsp;</div>
+                <br class="anually">99,99€</br>anually
+            </span>
         </div>
         <div class="enterprise-box-plan">
             <h2>🔭Enterprise Plan!</h2>
@@ -43,12 +51,41 @@
                 <li>Premium support</li>
                 <li>Premium access to new releases</li>
             </ul>
-
+            <span class="prices">19,99€<br>month</br>
+                <div class="line">&nbsp;</div>
+                <br class="anually">199,99€</br>anually
+            </span>
         </div>
     </section>
 
+<!--STRIPE-->
 
+    <form action="/charge" method="post" id="payment-form">
+        <div class="form-row">
+            <label for="card-element">
+                Please insert your credit or debit card!
+            </label>
+            <div id="card-element">
+                <!-- A Stripe Element will be inserted here. -->
+            </div>
 
+            <!-- Used to display form errors. -->
+            <div id="card-errors" role="alert"></div>
+        </div>
+
+        <button class="stripe-button">Insert coin!</button>
+    </form>
+
+<!--FOOTER-->
+
+<footer id="legal-footer">
+        <div id="legal"><p><a href="https://scope.ink/privacy-policy" target="_blank"><span id="legal-span">Privacy Policy</span></a></p></div>
+        <div id="legal"><p><a href="https://scope.ink/legal" target="_blank"><span id="legal-span">Legal</span></a></p></div>
+        <div id="legal"><p><a href="https://scope.ink/cookies" target="_blank"><span id="legal-span">Cookies</span></a></div></p></div>
+    </footer>
+
+    <script src="https://js.stripe.com/v3/"></script>
+    <script src="stripe.js"></script>
 </body>
 
 </html>
