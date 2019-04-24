@@ -263,7 +263,7 @@ footer {
 
 /*MEDIA DESKTOP*/
 
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 700px) {
     header .header-brand {
         margin: 0 ;
         text-align: left;
@@ -272,7 +272,7 @@ footer {
     }
 
     header nav ul {
-        margin: -40px 50px;
+        margin: -50px 50px;
         display: inline-block;
         float: right;
 
@@ -339,7 +339,8 @@ footer {
     }
     
     .prices {
-        
+        display: contents;
+        border-top: solid;
     }
     
     .line {
