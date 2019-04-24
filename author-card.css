@@ -1,0 +1,36 @@
+
+
+.intro-svg{
+    height: 250px;
+    width: 250px;
+    margin-top: 50px;
+    margin-left: 5px;
+    border-radius: 10px;
+    float: left;
+    background-color: rgb(17, 27, 57);
+    box-shadow: rgba(0, 0, 0, 0.75) 10px 10px 102px 0px;
+}
+
+.text-svg{
+    display: flex;
+    height: 80px;
+    padding: 10px;
+    font-size: 10px;
+    margin-top: 5px;
+}
+
+.logo-svg{
+    border-radius: 30px;
+    vertical-align: top;
+    width: 40px;
+    height: 40px;
+    margin-left: 20px;
+}
+
+.rv-force__svg {
+    height: 300px;
+    width: 350px;
+    margin-left: -60px;
+    margin-top: -120px;
+    transform: scale(0.75);
+}

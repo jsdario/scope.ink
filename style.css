@@ -158,22 +158,20 @@ header nav ul li a {
 
 .introduction {
     color: white;
-    height: 300px;
+    height: 350px;
     width: 100%;
     background-color: #4067EC;
-    border-bottom-left-radius: 25%;
     display: block;
 }
 
-.introduction-text{
-    padding: 20px;
-    display: inline-block;
+.introduction span{
+    display: inline;
 }
 
 #text1 {
-    width: 50px;
-    font-size: 12pt;
-    margin: 30px 100px 0px 20px;
+    width: 110px;
+    font-size: 18pt;
+    margin: 30px 15px 10px 50px;
     display: inline-block;
 }
 
@@ -182,15 +180,16 @@ header nav ul li a {
 }
 
 .button {
-    display: inline;
-    width: 50px;
-    margin-bottom: -50px;
-    background-color: #FA547A;
+    display: inline-block;
+    float: right;
+    margin: 50px 50px 0px 50px;
+    width: 25%;
+    background-color: #111B39;
     border: 0px;
     border-radius: 25px;
-    color: #111B39;
+    color: white;
     padding: 3px;
-    font-size: 13px;
+    font-size: 12.5px;
     cursor: pointer;
     box-shadow: 6px 7px 25px -5px rgba(0, 0, 0, 0.75);
 }
@@ -204,49 +203,89 @@ a#start-cta-link:hover {
     color: white;
 }
 
+/*WHAT?*/
+
+.scope-title {
+    padding-top: 50px;
+    text-align: center;
+    font-size: 23px;
+    margin-top: 10px;
+}
+
+#p-scope-description {
+    text-align: center;
+    width: 70%;
+    font-size: 14px;
+    margin: auto;
+    padding: 20px;
+}
+
 .landing-benefits-container {
     width: 100%;
     color: #111B39;
-    display: flex;
+    display: inline-block;
+    text-align: center;
 }
 
-.description {
-    margin: 120px 90px 0 0;
+.benefit-1 {
+    display: inline-block;
+    text-align: center;
+    margin: 30px 20px;
 }
 
-.description-pr {
-    margin: 80px 500px 0 0;
+.description-1 {
+    display: inline;
+    text-align: center;
+    font-size: 14px;
 }
 
 .line {
-    margin: 20px 0px 20px 20px;
+    margin-top: 20px;
     background: black;
     height: 1px;
     width: 160px;
     align-items: center;
-    display: block;
+    display: inline-block;
     background-color: #111B39;
 }
 
-.benefit {
-    display: flex;
-    justify-content: center;
-    margin-top: 40px;
-    width: 100%;
-}
-
 .body-text {
-    text-align: justify;
-    text-justify: left;
-    display: inline-block;
+    text-align: center;
+    display: inline;
+    margin: 0 auto;
     margin-top: 10px;
-    width: 400px;
     opacity: 0.7;
+    font-size: 12px;
 }
 
-.image-body-1 {
-    display: flex;
-    align-items: center;
+.image-author-card {
+    margin-left: 40px;
+}
+
+.benefit-2 {
+    display: inline-block;
+    text-align: center;
+    margin: 30px 20px;
+    position: relative;
+}
+
+.description-2 {
+    display: inline;
+    text-align: center;
+    font-size: 14px;
+    position: absolute;
+    top: 0;
+    margin-left: -150px;
+}
+
+.image-body-2{
+    display: inline-block;
+    text-align: center;
+    margin-left: 50%;
+}
+
+.description-pr {
+    margin: 80px 500px 0 0;
 }
 
 .image-body-pr {
@@ -267,77 +306,6 @@ a#start-cta-link:hover {
     text-align: center;
 }
 
-section.pricing {
-    display: block;
-    width: 100%;
-    position: relative;
-    padding: 20px;
-    margin-left: 40px;
-    height: 300px;
-    justify-items: center;
-}
-
-.pricing-card {
-    display: block;
-    float: left;
-    margin: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    width: 350px;
-    height: 270px;
-}
-
-.pricing-card-header {
-    padding-bottom: 20px;
-    color: white;
-    text-align: center;
-    border-radius: 9px 9px 0 0;
-}
-
-#open-source .pricing-card-header {
-    background-color: #39E8CA;
-    padding-top: 10px;
-    font-size: 24px;
-}
-
-#startup .pricing-card-header {
-    background-color: #5A9FEE;
-    padding-top: 10px;
-    font-size: 24px;
-}
-
-#enterprise .pricing-card-header {
-    background-color: #111B39;
-    padding-top: 10px;
-    font-size: 24px;
-}
-
-.pricing-card-body ul {
-    list-style: none;
-    text-align: center;
-    padding: 20px;
-    margin-top: 15px;
-}
-
-.cta-button {
-    background-color: #F1F5FF;
-    border-radius: 10px;
-    border-color: white;
-    color: white;
-    background-color: orange;
-    padding: 4px 15px;
-    font-size: 20px;
-    cursor: pointer;
-    align-items: center;
-    margin-top: 15px;
-}
-
-.scope-title {
-    padding-top: 50px;
-    text-align: center;
-    margin: 50px 0px 20px 0px;
-}
-
 #color-title {
     color: #4067EC;
 }
@@ -346,13 +314,6 @@ section.pricing {
     padding-top: 50px;
     text-align: center;
     margin: 90px 0px 50px 0px;
-}
-
-#p-scope-description {
-    text-align: center;
-    width: 50%;
-    margin: auto;
-    padding: 20px;
 }
 
 .media-supporters {
@@ -598,7 +559,7 @@ footer {
         background-color: #111B39;
     }
 
-    .benefit {
+    .benefit-1 {
         display: flex;
         justify-content: center;
         margin-top: 40px;
@@ -614,7 +575,7 @@ footer {
         opacity: 0.7;
     }
 
-    .image-body-1 {
+    .image-author-card {
         display: flex;
         align-items: center;
     }
@@ -635,71 +596,6 @@ footer {
         display: block;
         padding: 10px;
         text-align: center;
-    }
-
-    section.pricing {
-        display: block;
-        width: 100%;
-        position: relative;
-        padding: 20px;
-        margin-left: 40px;
-        height: 300px;
-        justify-items: center;
-    }
-
-    .pricing-card {
-        display: block;
-        float: left;
-        margin: 20px;
-        border-radius: 10px;
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-        width: 350px;
-        height: 270px;
-    }
-
-    .pricing-card-header {
-        padding-bottom: 20px;
-        color: white;
-        text-align: center;
-        border-radius: 9px 9px 0 0;
-    }
-
-    #open-source .pricing-card-header {
-        background-color: #39E8CA;
-        padding-top: 10px;
-        font-size: 24px;
-    }
-
-    #startup .pricing-card-header {
-        background-color: #5A9FEE;
-        padding-top: 10px;
-        font-size: 24px;
-    }
-
-    #enterprise .pricing-card-header {
-        background-color: #111B39;
-        padding-top: 10px;
-        font-size: 24px;
-    }
-
-    .pricing-card-body ul {
-        list-style: none;
-        text-align: center;
-        padding: 20px;
-        margin-top: 15px;
-    }
-
-    .cta-button {
-        background-color: #F1F5FF;
-        border-radius: 10px;
-        border-color: white;
-        color: white;
-        background-color: orange;
-        padding: 4px 15px;
-        font-size: 20px;
-        cursor: pointer;
-        align-items: center;
-        margin-top: 15px;
     }
 
     .scope-title {
