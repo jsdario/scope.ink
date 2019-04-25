@@ -95,20 +95,27 @@
     transform: scale(0.6);
 }
 
+@media only screen and (min-width: 600px) {
+    .box-1{ 
+        margin-left: 60px;
+        
+    }
+
+    .box-3{
+        margin-left: 60px;
+    }
+}
+
 @media only screen and (min-width: 900px) {
     .intro{
         max-width: 480px;
+        display: flex;
     }
     
     .intro-evolution{
-        margin-top: 120px;
-        margin-left: -80px;
-        display: inline; 
-        float: left; 
-        align-items: center; 
-        justify-content: center; 
-        flex: 1 1 0%; 
-        clear: both;
+        display: flex; 
+        margin-left: 230px;
+        margin-top: 80px;
     }
     
     .box-1{
