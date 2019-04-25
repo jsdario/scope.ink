@@ -6,13 +6,7 @@
 }
 
 .intro-evolution{
-    display: flex;
-    flex-wrap: wrap; 
-    float: left; 
-    align-items: center; 
-    justify-content: center; 
-    flex: 1 1 0%; 
-    clear: both;
+    margin-left: -6px;
 }
 
 .box-1{
@@ -114,79 +108,50 @@
     
     .intro-evolution{
         display: flex; 
-        margin-left: 230px;
+        margin-left: 60px;
         margin-top: 80px;
     }
     
     .box-1{
         height: 180px; 
         width: 180px; 
-        margin-right: 20px; 
-        margin-top: 20px; 
-        border-radius: 10px; 
-        display: block; 
-        float: left; 
-        background-color: rgb(17, 27, 57); 
-        box-shadow: rgba(0, 0, 0, 0.75) 10px 10px 102px 0px;
+        margin-right: 50px; 
     }
     
     .rv-force__svg__evolution-1{
-        width: 180; 
-        height: 180; 
-        viewBox: 90 90 180 180;
+        margin-top: -80px;
+        margin-right: -40px;
     }
     
     .box-2{
         height: 180px; 
         width: 180px; 
-        margin-right: 20px; 
-        margin-top: 20px; 
-        border-radius: 10px; 
-        display: block; 
-        float: left; 
-        background-color: rgb(17, 27, 57); 
-        box-shadow: rgba(0, 0, 0, 0.75) 10px 10px 102px 0px;
+        margin-right: -10px;
     }
     
     .rv-force__svg__evolution-2{
-        width: 180; 
-        height: 180; 
-        viewBox: 90 90 180 180;
+        margin-top: -80px;
+        margin-right: -40px;
     }
     
     .box-3{
         height: 180px; 
         width: 180px; 
-        margin-right: 20px; 
-        margin-top: 20px; 
-        border-radius: 10px; 
-        display: block; 
-        float: left; 
-        background-color: rgb(17, 27, 57); 
-        box-shadow: rgba(0, 0, 0, 0.75) 10px 10px 102px 0px;
+        margin-right: 50px;  
     }
     
     .rv-force__svg__evolution-3{
-        width: 180; 
-        height: 180; 
-        viewBox: 90 90 180 180;
+        margin-top: -80px;
+        margin-right: -40px;
     }
     
     .box-4{
         height: 180px; 
         width: 180px; 
-        margin-right: 20px; 
-        margin-top: 20px; 
-        border-radius: 10px; 
-        display: block; 
-        float: left; 
-        background-color: rgb(17, 27, 57); 
-        box-shadow: rgba(0, 0, 0, 0.75) 10px 10px 102px 0px;
     }
     
     .rv-force__svg__evolution-4{
-        width: 180; 
-        height: 180; 
-        viewBox: 90 90 180 180;
+        margin-top: -65px;
+        margin-right: -40px;
     }
 }
