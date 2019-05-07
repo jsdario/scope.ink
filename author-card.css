@@ -7,6 +7,7 @@
     float: left;
     background-color: rgb(17, 27, 57);
     box-shadow: rgba(0, 0, 0, 0.75) 10px 10px 102px 0px;
+    color: white;
 }
 
 .text-svg{
@@ -14,6 +15,7 @@
     height: 80px;
     padding: 10px;
     font-size: 10px;
+    color: white;
     margin-top: 5px;
 }
 
