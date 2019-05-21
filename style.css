@@ -315,7 +315,7 @@ a#start-cta-link:hover {
 }
 
 .description-safe{
-    font-size: 22px;
+    font-size: px;
     margin-top: 30px;
     text-align: center;
 }
@@ -610,6 +610,7 @@ footer {
 
     .description-pr {
         margin: 80px 500px 0 0;
+        font-size: 22px;
     }
 
     .line {
