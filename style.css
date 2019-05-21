@@ -315,7 +315,7 @@ a#start-cta-link:hover {
 }
 
 .description-safe{
-    font-size: 22px;
+    font-size: px;
     margin-top: 30px;
     text-align: center;
 }
@@ -323,7 +323,7 @@ a#start-cta-link:hover {
 .body-text-safe{
     color: #111B39;
     opacity: 0.7;
-    font-size: 12px;
+    font-size: 14px;
     text-align: center;
     margin: 10px 30px;
 }
@@ -355,29 +355,29 @@ a#start-cta-link:hover {
     background-color: rgb(64, 103, 236, 0.1);
 }
 
-#text-newsletter {
-    font-size: 11px;
-    opacity: 0.7;
-    width: 90%;
-    text-align: center;
-    display: inline-block;
-    margin-top: 10px;
+.subscribe-newsletter p {
+    font-size: 15px;
+    font-weight: 100px;
+    margin-top: 20px;
 }
 
-#input-style {
-    border: 0px;
-    padding: 5px;
+.button-newsletter{
+    padding: 10px;
+    background-color: #111B39;
+    color: white !important;
     border-radius: 15px;
-    width: 60%;
-    background-color: rgb(64, 103, 236, 0.15);
-    margin-top: 15px;
+    font-size: 14px;
+    margin-top: 20px;
+    font-weight: 100;
 }
 
-::placeholder {
-    color: #111B39;
-    text-align: center;
-    font-size: 9px;
-    opacity: 0.8;
+.button-newsletter:hover{
+    background-color: #FA547A;
+    opacity: 0.92;
+}
+
+.button-newsletter:hover a {
+    color: white;
 }
 
 .subscribe-column{
@@ -610,6 +610,7 @@ footer {
 
     .description-pr {
         margin: 80px 500px 0 0;
+        font-size: 22px;
     }
 
     .line {
@@ -647,20 +648,6 @@ footer {
     .subscribe-column h1{
         font-size: 20pt;
     }
-
-    #input-style {
-        border: 0px;
-        padding: 10px;
-        border-radius: 15px;
-        width: 40%;
-        background-color: rgb(64, 103, 236, 0.15);
-        margin-top: 30px;
-    }
-    
-    ::placeholder {
-        font-size: 12px;
-    }
-
     
     .fa {
         display: inline-block;
